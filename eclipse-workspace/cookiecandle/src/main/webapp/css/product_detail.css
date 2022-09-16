@@ -1,0 +1,252 @@
+@charset "UTF-8";
+@import url('https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css');
+@font-face { font-family: 'NanumBarunGothic';src: url('https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css')}
+body {
+	font-family: nanumbarungothiclight;
+}
+
+.main-detail-box {
+	max-width: 1200px;
+    width: 100%;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.detail-box {
+	display: flex;
+    height: 700px;
+}
+
+.detail-pimg {
+	width: 600px;
+	height: 600px;
+}
+
+.detail-pimg img {
+	width: 100%;
+    object-fit: cover;
+}
+
+.detail-group {
+	flex: 1;
+    padding-left: 120px;
+}
+
+.detail-title>p:first-child {
+	font-family: NanumBarunGothicLight;
+	font-size: 24px;
+	margin-bottom: 15px;
+
+}
+
+.detail-title>p:nth-child(2) {
+	font-family: NanumBarunGothicLight;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+hr {
+	background-color: gray;
+}
+
+.detail-info ul{
+	list-style: none;
+	margin-top: 20px;
+	font-family: NanumBarunGothicLight;
+	font-size: 12px;
+	line-height: 13px;
+	
+}
+
+.detail-inof ul li {
+	margin-bottom: 30px;
+	
+}
+
+.choose-name-box {
+	margin-top: 30px;
+}
+
+#choose-name {
+	font-family: NanumBarunGothicLight;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+#choose {
+	width: 476px;
+}
+
+.btn {
+	width: 132px;
+	height: 40px;
+	margin-top: 50px;
+	background: white;
+	font-family: NanumBarunGothicLight;
+	cursor: pointer;
+}
+
+.btn.black {
+	background: black;
+	color: white;
+}
+
+#payBtn {
+	margin-right: -8px;
+}
+
+.line-box {
+	
+	padding: 10px;
+	border: 1px solid #efefef;
+}
+
+.menu-tab {
+	display: flex;
+	position: sticky;
+    top: 0;
+    text-align: center;
+    background: white;
+    margin-top: 60px;
+}
+
+.menu-tab div{
+	flex: 1;
+    padding-top: 12px;
+	text-align: center;
+	height: 32px;
+	border: 1px solid #efefef;
+}
+
+.img2 {
+	width: 1200px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+
+/* qnty 영역 */
+.qnty-box {
+	
+	border: none;
+	margin-top: 40px;	
+	font-family: NanumBarunGothicLight;
+}
+
+.qnty-prd-box{
+	display: flex;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #efefef;
+}
+
+.qnty-box-price {
+	margin-top: 50px;
+}
+
+#totalPrice{
+	margin-left: 70px;
+}
+
+#result{
+	width: 30px;
+	height: 23px;
+	text-align: center;
+	border: 1px solid #efefef; 
+	
+}
+
+#sub {
+	border: 1px solid #efefef; 
+	width: 25px;
+	height: 25px;
+	background: white;
+	margin-right: -6px;
+}
+
+#add {
+	border: 1px solid #efefef; 
+	width: 25px;
+	height: 25px;
+	background: white;
+	margin-left: -6px;
+}
+
+#priceResult {
+	text-align: right;
+	width: 50px;	
+}
+
+#totalPrice {
+	margin-left: 105px;
+	text-align: right;
+	width: 50px;	
+}
+
+
+/*
+review영역
+*/
+#reviewBtn {
+	margin-bottom: 10px;
+}
+
+.review-text {
+	margin-bottom: -40px;
+	font-family: NanumBarunGothicLight!important;
+	color: #808080;
+	font-size: 13px;
+}
+
+.qna-table .header {
+	    display: flex;
+	    text-align: center;
+	    border-top: 1px solid rgb(175, 175, 175);	
+	    border-bottom: 1px solid #efefef;	
+}
+.qna-table .header li {
+	    list-style-type: none!important;
+	    font-family: NanumBarunGothicLight!important;
+	    font-weight: bold;
+	    color: rgb(83, 83, 83); 	
+	
+}
+
+.qna-table li:nth-child(1) {
+	flex: 1;
+	
+}
+.qna-table li:nth-child(2) {
+	width: 100px;
+}
+.qna-table li:nth-child(3) {
+	width: 200px;
+}
+
+
+.qna-table .body {
+	display: flex;
+	text-align: center;
+	border-bottom: 1px solid #efefef;	
+}
+
+.qna-table .body li {
+	list-style-type: none!important;
+	color: rgb(102, 102, 102); 
+	font-family: NanumBarunGothicLight!important;
+	
+}
+.qna-table .body li:nth-child(1) {
+	flex: 1;
+}
+
+.qna-table .body li:nth-child(2) {
+	width: 100px;
+}
+.qna-table .body li:nth-child(3) {
+	width: 200px;
+}
+
+

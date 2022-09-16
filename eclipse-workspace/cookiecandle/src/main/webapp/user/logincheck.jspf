@@ -1,0 +1,15 @@
+<%@page import="coocan.com.dto.UserDTO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	//세션에 저장된 회원정보 받아오기
+	UserDTO userLogin=(UserDTO)session.getAttribute("userLogin");
+	
+	//비로그인 사용자이면 에러페이지 이동
+	if(userLogin==null){
+		out.println("<script type='text/javascript'>");
+		out.println("location.href='index.jsp?workgroup=user&work=user_login';");
+		out.println("</script>");
+		return;	
+	}
+%>
